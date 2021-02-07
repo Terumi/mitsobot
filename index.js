@@ -9,23 +9,41 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.endsWith === 'oni') {
+  if (msg.content.endsWith('oni')) {
     msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
   }
-  if (msg.endsWith === 'onei') {
+  if (msg.content.endsWith('onei')) {
     msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
   }
-  if (msg.endsWith === 'ώνει') {
+  if (msg.content.endsWith('ώνει')) {
     msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
   }
-  if (msg.endsWith === 'όνι') {
+  if (msg.content.endsWith('ονει')) {
     msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
   }
-  if (msg.endsWith === 'ονι') {
+  if (msg.content.endsWith('ονει')) {
     msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
   }
-  if (msg.endsWith === 'ωνει') {
+  if (msg.content.endsWith('όνι')) {
     msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+  }
+  if (msg.content.endsWith('ονι')) {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+  }
+  if (msg.content.endsWith('ωνει')) {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+  }
+  if (msg.content.endsWith('ένωση')) {
+    msg.reply('Ένωση Κεντρώων!');
+  }
+  if (msg.content.endsWith('ένωση!')) {
+    msg.reply('Ένωση Κεντρώων!');
+  }
+  if (msg.content.endsWith('enosi')) {
+    msg.reply('Ένωση Κεντρώων!');
+  }
+  if (msg.content.endsWith('enosi!')) {
+    msg.reply('Ένωση Κεντρώων!');
   }
 });
 
