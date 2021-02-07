@@ -9,8 +9,23 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+  if (msg.endsWith === 'oni') {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+  }
+  if (msg.endsWith === 'onei') {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+  }
+  if (msg.endsWith === 'ώνει') {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+  }
+  if (msg.endsWith === 'όνι') {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+  }
+  if (msg.endsWith === 'ονι') {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+  }
+  if (msg.endsWith === 'ωνει') {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
   }
 });
 
