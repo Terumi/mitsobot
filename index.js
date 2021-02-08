@@ -18,6 +18,18 @@ client.on('message', msg => {
   if (msg.content.endsWith('ώνει')) {
     msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
+  if (msg.content.endsWith('όνοι')) {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
+  }
+  if (msg.content.endsWith('onoi')) {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
+  }  
+  if (msg.content.endsWith('ονοι')) {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
+  }
+  if (msg.content.endsWith('sony')) {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
+  }    
   if (msg.content.endsWith('ονει')) {
     msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
