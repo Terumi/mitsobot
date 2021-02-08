@@ -10,28 +10,34 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content.endsWith('oni')) {
-    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
   if (msg.content.endsWith('onei')) {
-    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
   if (msg.content.endsWith('ώνει')) {
-    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
   if (msg.content.endsWith('ονει')) {
-    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
+  }
+  if (msg.content.endsWith('ονυ')) {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
+  }
+   if (msg.content.endsWith('όνυ')) {
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
   if (msg.content.endsWith('ονει')) {
-    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
   if (msg.content.endsWith('όνι')) {
-    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
   if (msg.content.endsWith('ονι')) {
-    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
   if (msg.content.endsWith('ωνει')) {
-    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι');
+    msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
   if (msg.content.endsWith('ένωση')) {
     msg.reply('Ένωση Κεντρώων!');
