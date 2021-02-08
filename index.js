@@ -8,7 +8,21 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+let aris_response = "Μπάτσοι, γουρούνια δολοφόνοι!";
+let matches = [
+'oni', 'onei', 'ώνει', 'όνοι', 'onoi', 'ονοι', 'sony','ονει', 'ονυ', 'όνυ', 'ονει', 'όνι', 'ονι', 'ωνει'
+];
+
 client.on('message', msg => {
+
+Object.values(matches).forEach( function(value){
+if (msg.content.endsWith(value)) {
+    msg.reply(aris_response);
+  }
+}
+)
+});
+/*
   if (msg.content.endsWith('oni')) {
     msg.reply('Μπάτσοι, γουρούνια δολοφόνοι!');
   }
@@ -63,7 +77,8 @@ client.on('message', msg => {
   if (msg.content.endsWith('enosi!')) {
     msg.reply('Ένωση Κεντρώων!');
   }
-});
+  */
+//});
 
 // Here you can login the bot. It automatically attempts to login the bot
 // with the environment variable you set for your bot token ("DISCORD_TOKEN")
