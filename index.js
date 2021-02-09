@@ -10,13 +10,21 @@ client.on('ready', () => {
 
 let takis_response = "Οι Γερμανοί είναι φίλοι μας!";
 let matches = [
-'german', 'merkel', 'γερμανοί', 'γερμανία', 'germany', 'germanoi', 'germania','godwin\'s law', 'ναζί', 'ναζι', 'γερμανια', 'αλεμάνια', 'alemania', 'φιλελέφθερος', '΄φιλελε'
+'german', 'merkel', 'γερμανοί', 'γερμανία', 'germany', 'germanoi', 'germania','godwin\'s law', 'ναζί', 'ναζι', 'γερμανια', 'αλεμάνια', 'alemania', 'φιλελεύθερος', 'φιλελε'
 ];
 
+
 client.on('message', msg => {
+  let found = false;
   Object.values(matches).forEach( function(value){
-    if (msg.content.includes(value)) {msg.reply(takis_response);}
-      })
+    if(!found){
+      if (msg.content.includes(value)) {
+        msg.reply(takis_response);
+        found = true;
+      }
+    }
+    }
+  )
 });
 
 client.login();
