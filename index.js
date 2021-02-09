@@ -8,14 +8,14 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-let aris_response = "Μπάτσοι, γουρούνια δολοφόνοι!";
+let takis_response = "Οι Γερμανοί είναι φίλοι μας!";
 let matches = [
-'oni', 'onei', 'ώνει', 'όνοι', 'onoi', 'ονοι', 'sony','ονει', 'ονυ', 'όνυ', 'ονει', 'όνι', 'ονι', 'ωνει'
+'german', 'merkel', 'γερμανοί', 'γερμανία', 'germany', 'germanoi', 'germania','godwin\'s law', 'ναζί', 'ναζι', 'γερμανια', 'αλεμάνια', 'alemania', 'φιλελέφθερος', '΄φιλελε'
 ];
 
 client.on('message', msg => {
   Object.values(matches).forEach( function(value){
-    if (msg.content.endsWith(value)) {msg.reply(aris_response);}
+    if (msg.content.includes(value)) {msg.reply(takis_response);}
       })
 });
 
